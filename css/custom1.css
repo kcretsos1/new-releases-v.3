@@ -1,0 +1,160 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ * Adapted from https://github.com/BlackrockDigital/startbootstrap-simple-sidebar
+ */
+
+body {
+	overflow-x: hidden;	
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -16rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+  padding: 10px;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 0.8rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 16rem;
+  padding: 10px;
+  padding-left: 10px;
+}
+
+#sidebar-wrapper .dropdown-btn {
+  width: 16rem;
+}
+
+#sidebar-wrapper .dropdown-container {
+  width: 16rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -20rem;
+  }
+}
+
+@media (min-width: 1468px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -30rem;
+  }
+}
+
+
+@media (min-width: 1668px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -35rem;
+  }
+}
+
+/*!
+ * Start Old Styling
+ */
+
+td {
+padding 10px 12px;	
+border: <?=$border?> #DDD;
+}
+
+.column {
+  width: 25%;
+  padding: 20px;
+}
+
+table tr th:nth-child(1){
+       text-align: center;
+}
+
+table tr td:nth-child(1){
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top:10px;
+	padding-bottom:10px;	
+}
+
+table tr th:nth-child(2){
+	text-align: center;
+}
+
+table tr td:nth-child(2){
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+table tr th:nth-child(3){
+	text-align: center;
+}
+
+table tr td:nth-child(3){
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+th {
+background: #1d204a;
+color: #FFF;
+padding: 4px 6px;
+border-collapse: separate;
+}
+
+@media only screen and (max-width: 800px) {
+	
+table {
+	width: 90%
+}
+  td {
+    display: block
+  }
+}

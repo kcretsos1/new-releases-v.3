@@ -1,0 +1,383 @@
+.libHeaderTopRed
+{
+	background-color: #d52728;
+}
+#lib_header
+{
+	padding-top: 6px;
+    padding-bottom: 6px;
+   
+	background-color: #25234B;
+}
+.libHeaderTop 
+{
+	background-color: #1d204a; /*20190211*/
+	background-repeat: no-repeat;
+	
+}
+
+.libHeaderTop img
+{
+	
+    padding-left: 15px;
+	height: 44px;
+}
+.libHeaderMid {
+	position: relative;
+	font-family: chronic;
+	padding-top: 10px;
+	padding-left: 15px;
+	font-weight: 400;
+	/*color: #525252;*/
+	color: #F80228;
+	font-size: 34px;
+	line-height: 50px;
+	border-bottom: 5px solid #333;
+	padding-bottom: 10px;
+	/*height: 54px;*/
+}
+
+.libHeaderMid a{
+	color: #F80228;
+    text-decoration: none;
+	font-family: chronic;
+
+}
+
+.libFooter {
+	background: #333;
+	color: #aaa;
+	font-size: 16px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 25px;
+	padding: 50px 0 30px;
+}
+
+.libFooter
+{
+	/*font-family: 'Merriweather Sans', sans-serif;*/
+	/*font-family: 'Roboto', sans-serif;*/
+	font-size: 16px;
+	color: #aaa;
+}
+
+a.libFooterLink,
+a.libFooterLink:visited
+{
+	color:#aaa;
+	text-decoration: none;
+}
+
+
+a.libFooterLink:active,
+a.libFooterLink:hover,
+a.libFooterLink:focus
+ {
+	color: white;
+}
+
+
+a.libFooterLinks, 
+a.libFooterLinks:focus,
+a.libFooterLinks:visited
+{
+	
+	color:white;
+	text-decoration:none;
+	
+}
+
+a.libFooterLinks:active,
+a.libFooterLinks:hover {
+	color: #d52728;
+}
+
+
+.libFooterSocialMedia {
+	font-size: 14px;
+	background: #262626;
+	margin-bottom: 45px;
+	padding: 18px 34px;
+	
+}
+
+/* override the default size for font awesome icons */
+.libFooterIcon {
+	font-size: 20px;
+	position: relative;
+	top: 2px;
+}
+
+.libFooter {
+	background: #333;
+	color: #aaa;
+	font-size: 16px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 25px;
+	padding: 50px 0 30px;
+}
+
+.libFooter
+{
+	/*font-family: 'Merriweather Sans', sans-serif;*/
+	/*font-family: 'Roboto', sans-serif;*/
+	font-size: 16px;
+	color: #aaa;
+}
+
+a.libFooterLink,
+a.libFooterLink:visited
+{
+	color:#aaa;
+	text-decoration: none;
+}
+
+
+a.libFooterLink:active,
+a.libFooterLink:hover,
+a.libFooterLink:focus
+ {
+	color: white;
+}
+
+a.libFooterLinks, 
+a.libFooterLinks:focus,
+a.libFooterLinks:visited
+{
+	
+	color:white;
+	text-decoration:none;
+	
+}
+
+a.libFooterLinks:active,
+a.libFooterLinks:hover {
+	color: #d52728;
+}
+
+
+.libFooterSocialMedia {
+	font-size: 14px;
+	background: #262626;
+	margin-bottom: 45px;
+	padding: 18px 34px;
+	
+}
+
+/* override the default size for font awesome icons */
+.libFooterIcon {
+	font-size: 20px;
+	position: relative;
+	top: 2px;
+}
+
+
+.footer {
+    /*margin-top: 10px;*/
+    /* background: #333; */
+    background: #25234B;
+    /*color: #aaa;*/
+    font-size: 16px;
+    line-height: 25px;
+    padding: 20px 0 0;
+    font-family: "Alright Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.footer__anchor-nav {
+    max-width: 1050px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer__anchor-list {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}
+
+.footer__anchor-list>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.footer a 
+{
+	color: #fff;
+}
+
+.yellow-widget {
+	border-top: 8px solid #fab032;
+}
+
+.blue-widget {
+	border-top: 8px solid #00a8e4;
+}
+
+.topText {
+	color: #CF0A2C;
+	font-size:16px;
+	font-weight:700;
+}
+	
+/* borderless table bootstap override*/
+.table.table-borderless td, .table.table-borderless th {
+	border: 0 !important;
+}
+
+.table.table-borderless {
+	margin-bottom: 0px;
+}
+
+/* ---------------------------------------- */
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.yellow-widget {
+	border-top: 8px solid #fab032;
+}
+
+.blue-widget {
+	border-top: 8px solid #00a8e4;
+}
+
+.topText {
+	color: #CF0A2C;
+	font-size:16px;
+	font-weight:700;
+}
+	
+/* borderless table bootstap override*/
+.table.table-borderless td, .table.table-borderless th {
+	border: 0 !important;
+}
+
+.table.table-borderless {
+	margin-bottom: 0px;
+}
+
+.table.table-bordered.table-striped
+{
+	border: 1px solid rgb(221, 221, 221); 
+	border-spacing: 0px; 
+	border-collapse: separate;
+}
+
+.ck_border
+{
+	border: 1px solid rgb(221, 221, 221);
+    padding: 0px;
+}
+
+.ck_border li
+{
+	list-style-type:none;
+}
+
+/*makes body of guides fill screen*/
+body {
+padding-left: 0px;
+padding-right: 0px; }
+
+/*extends the main content of the page*/
+.s-lib-side-borders {
+width: 80%; }
+
+/*this section hides breadcrumbs at top of page*/
+#s-lib-bc-page { display: none;}
+#s-lib-bc-group { display: none;}
+
+/*this makes adjustments to the title of the guide*/
+#s-lg-guide-header-info h1, .s-lib-header h1  {
+color: #000000;
+font-weight: normal;
+text-transform: uppercase;
+display: inline-block;
+}
+
+/*adjusts the description of the page*/
+div#s-lg-guide-desc-container, div#s-lib-public-header-desc {
+font-size: 14px; }
+
+/*this changes the size of the side nav boxes*/
+/*#s-lg-guide-tabs .nav {
+ margin: 0 0 40px;
+text-align: center;
+}
+*/
+
+/*this changes the title of the individual boxes*/ 
+.s-lib-box .s-lib-box-title {    
+color: #CE1141;    
+font-size: 16px;
+font-weight: normal;    
+line-height: 1;    
+margin: 15px 0 5px;    
+padding: 0px;        
+text-transform: uppercase;    
+}
+
+/*this makes the box contents dark grey and larger font*/
+.s-lib-box-content { 
+font-size: 14px;
+color: #444444;
+font-family: Arial, sans-serif;
+}
+
+/*this makes the links listed follow the color and font rules as the other content*/
+.s-lg-link-list-2 li span>a, .s-lg-link-list, a { 
+color: #444444;
+font-family: Arial, sans-serif;
+}
+
+/*this formats the footer of the guide*/
+.s-lib-footer {
+ padding-top: 5px;
+padding-bottom: 5px;
+ border-top: 1px solid #bbb;
+ background-color: #f5f5f5;
+font-size: 14px;
+width: 100%;
+}
+
+/*this formats the subjects and tabs listed in footer*/
+.s-lg-small {
+font-size: 14px;
+}
+
+/*hides search bar on guides*/
+#s-lg-guide-header-search {
+    visibility: hidden; }
+
+/*this changes the guides and database tabs on individual subject pages*/
+li>a[href="#s-lg-sb-guides"], li>a[href="#s-lg-sb-databases"] {
+color: #CE1141;    
+font-size: 18px;
+background-color: #f5f5f5;
+text-transform: uppercase;
+}
+
+/*this makes database listings in individual guides bold*/
+.s-lg-link-list-10 li a {
+font-weight: bold; 
+}
+
+/*this hides the LibApps login button in footer*/
+#s-lib-footer-login-link {
+visibility: hidden; }
+
+/*hides bar that appears at top of some pages*/
+#s-lg-guide-tabs-title-bar { border-top: 0px }
+
+/*makes phone number links in footer same color as text*/
+a.libFooterLink {
+color: #aaaaaa; }
