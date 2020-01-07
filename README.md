@@ -1,6 +1,9 @@
 # new-releases-v.3
 This project displays a customized menu of new releases added to the library catalog using PostgreSQL queries and PHP scripts. The menu organizes the new releases based on Library of Congress Classification numbers. When possible, the webpage retrieves an image of the book jacket based on the ISBN using Content Cafe.
 
+# Updates
+Version 3 includes updated css, menu, and sidebar files.
+
 ## Getting Started
 
 This code works with Sierra ILS from Innovative Interfaces Inc.
